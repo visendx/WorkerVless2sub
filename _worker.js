@@ -312,19 +312,7 @@ export default {
 			
 			if (!url.pathname.includes("/sub")) {
 				const responseText = `
-			路径必须包含 "/sub"
-			The path must contain "/sub"
-			مسیر باید شامل "/sub" باشد
-			
-			${url.origin}/sub?host=[your host]&uuid=[your uuid]&path=[your path]
-			
-			
-			
-			
-			
-			
-				
-				https://github.com/cmliu/WorkerVless2sub
+			I want fuck you, baby!
 				`;
 			
 				return new Response(responseText, {
@@ -335,19 +323,7 @@ export default {
 			
 			if (!host || !uuid) {
 				const responseText = `
-			缺少必填参数：host 和 uuid
-			Missing required parameters: host and uuid
-			پارامترهای ضروری وارد نشده: هاست و یوآی‌دی
-			
-			${url.origin}/sub?host=[your host]&uuid=[your uuid]&path=[your path]
-			
-			
-			
-			
-			
-			
-				
-				https://github.com/cmliu/WorkerVless2sub
+			I want fuck you, baby!
 				`;
 			
 				return new Response(responseText, {
